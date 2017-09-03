@@ -9,7 +9,6 @@
     </head>
     <body>
         <header>
-
             <h1>
                 <a  href="/">Helbe Zvorovski</a>
             </h1>
@@ -34,22 +33,36 @@
         <main>
             <picture>
                 <img class="wide" src="pic/office.jpg"alt="Office">
-            </picture>                          
-            <a href="#contact">
-                <svg>
-                    <polyline class="move" points="10 100 60 70 110 100"/>
+            </picture>                                    
+            <a class="arrow" href="#works">
+                <svg class="dn">
+                    <polyline class="move" points="10 70 60 100 110 70"/>
                 </svg>
             </a>
             <h3 id="about">About</h3>
-            <p>Hello! I love to create websites.</p>
-            <picture id="HZ"></picture>
-            <button type="button" id="cv"> CV</button>
-            
+            <article>
+                <p>Hello! I love to create websites. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum elementum velit leo, id gravida sem faucibus convallis. Duis ut massa turpis. Vestibulum ullamcorper vestibulum velit vitae consequat.</p>
+                <img id="hz" src="pic/HZ.jpg" alt="Helbe Zvorovski">
+            </article>
+            <button type="button" id="cv">CV</button>
+            <a class="arrow" href="#works">
+                <svg class="dn">
+                    <polyline class="move" points="10 70 60 100 110 70"/>
+                </svg>
+            </a>            
             <h3 id="works">Works</h3>
-            <div> 
-                <iframe></iframe>
-                <iframe></iframe>
-                           
+            
+            <div class="wrapper">
+                <iframe class="scaled-frame" src="https://katharinaaus.wixsite.com/ceramics"></iframe>
+            </div>
+            <div class="wrapper">
+                <iframe class="scaled-frame" src="http://unikaalkeraamika.azurewebsites.net/index.html"></iframe>
+            </div>
+            <a class="arrow" href="/">
+                <svg class="up">
+                    <polyline class="move" points="10 100 60 70 110 100"/>
+                </svg>
+            </a>                          
             <picture>
                     <img class="wide" src="pic/flower.jpg"alt="Great ideas">
             </picture>
