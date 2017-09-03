@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Lovers+Quarrel|Encode+Sans:400,600");
+h1 {
+    text-align: center;
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 10rem;
+    padding-top: 1rem;
+    margin-bottom: -1rem;
+}
+nav {
+    background-color: rgb(128, 194, 65);
+}
+nav ul {
+    display: flex;
+    width: 40vw;
+    margin: auto;
+}
+nav ul li{
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0.3em;
+    display: inline;
+    margin: auto;
+}
+h2 {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2.8rem;
+    color: rgb(128, 194, 65);
+    text-align: center;
+}
+#and {
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 8rem;
+}
+h3 {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 600;
+    font-size: 2.8rem;
+    color: rgb(128, 194, 65);
+    text-align: center;
+}
+p {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+.wide{
+    width: 100%;
+    
+}
+address p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1rem;
+}
+.move  {
+    stroke: rgb(128, 194, 65);
+    stroke-width: 10px;
+    stroke-linecap: round;
+    fill: none;
+    stroke-linejoin: round;
+}
+.move:hover {
+    stroke: rgb(170, 220, 109);    
+}
