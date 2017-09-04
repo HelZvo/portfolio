@@ -1,0 +1,9 @@
+function pageScroll() {
+    window.scrollBy(0,1);
+    scrolldelay = setTimeout(pageScroll,10);
+}
+
+https://stackoverflow.com/questions/9837676/smooth-auto-scroll-by-using-javascript
+
+pealkiri ja nooled parandada
+svg pikkus panna 100%
